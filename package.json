@@ -1,0 +1,36 @@
+{
+    "author": "Lucas Rinaldi",
+    "bugs": {
+        "url": "https://github.com/rinaldilucas/node-api-example/issues"
+    },
+    "dependencies": {},
+    "description": "Simple example of an user api using node.js, express.js and mongodb.",
+    "devDependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "createerror": "^1.3.0",
+        "express": "^4.17.1",
+        "http-status-codes": "^1.4.0",
+        "mongoose": "^5.9.21",
+        "node": "^14.4.0",
+        "nodemon": "^2.0.4"
+    },
+    "homepage": "https://github.com/rinaldilucas/node-api-example#readme",
+    "keywords": [
+        "node",
+        "api"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "name": "node-api-example",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rinaldilucas/node-api-example.git"
+    },
+    "scripts": {
+        "dev": "nodemon",
+        "start": "npm install && node index.js",
+        "build": "npm install && node index.js --prod=true"
+    },
+    "version": "1.0.0"
+}

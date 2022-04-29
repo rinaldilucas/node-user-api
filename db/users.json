@@ -1,0 +1,56 @@
+[
+    {
+        "_id": {
+            "$oid": "624f7615085ba648784a9afc"
+        },
+        "is_active": true,
+        "role": "admin",
+        "email": "lucasreinaldi@gmail.com",
+        "username": "lucasrinaldi",
+        "first_name": "Lucas",
+        "last_name": "Rinaldi",
+        "created_at": {
+            "$date": "2022-04-07T23:39:01.390Z"
+        },
+        "updated_at": {
+            "$date": "2022-04-07T23:39:27.034Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "624f7690085ba648784a9afd"
+        },
+        "is_active": true,
+        "role": "user",
+        "email": "johndoe@gmail.com",
+        "username": "johndoe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "created_at": {
+            "$date": "2022-04-07T23:41:04.277Z"
+        },
+        "updated_at": {
+            "$date": "2022-04-07T23:41:04.277Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "624f76ab085ba648784a9afe"
+        },
+        "is_active": false,
+        "role": "user",
+        "email": "joshdrake@gmail.com",
+        "username": "joshdrake",
+        "first_name": "Josh",
+        "last_name": "Drake",
+        "created_at": {
+            "$date": "2022-04-07T23:41:31.075Z"
+        },
+        "updated_at": {
+            "$date": "2022-04-07T23:41:31.075Z"
+        },
+        "__v": 0
+    }
+]
