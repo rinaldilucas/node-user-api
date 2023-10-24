@@ -130,12 +130,12 @@ And below are the implemented routes. You can consult them in `user.routes.js` e
 
 ```js
 [GET] localhost:3000/api/users -> 'findAll'
-[GET] localhost:3000/api/users/:_id -> 'findById'
-[GET] localhost:3000/api/users/email/:email -> 'findByEmail'
-[GET] localhost:3000/api/users/username/:username -> 'findByUsername'
+[GET] localhost:3000/api/users/{id} -> 'findById'
+[GET] localhost:3000/api/users/email/{email} -> 'findByEmail'
+[GET] localhost:3000/api/users/username/{username} -> 'findByUsername'
 [POST] localhost:3000/api/users -> 'create'
 [UPDATE] localhost:3000/api/users -> 'update'
-[DELETE] localhost:3000/api/users/:_id -> 'delete'
+[DELETE] localhost:3000/api/users/{id} -> 'delete'
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
