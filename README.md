@@ -15,7 +15,7 @@
   <h3 align="center">User Api using Node.js</h3>
 
   <p align="center">
-    Api built with Node.js, Express.js and MongoDB<br> to jumpstart your studies.
+    API built with Node.js, Express.js, and MongoDB<br> to jumpstart your studies.
     <br />
     <br />   
     <a href="https://github.com/rinaldilucas/node-api-example"><strong>Explore the docs »</strong></a>
@@ -56,7 +56,7 @@
 ## About The Project
 
 
-A very simple node project to help people looking for API examples using express.js and mongodb. If this repository helped you, don't hesitate to leave a star!
+A very simple node project to help people looking for API examples using express.js and MongoDB. If this repository helped you, don't hesitate to leave a star!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,7 +80,7 @@ After cloning the project, you need to do a few things to be able to run it.
 
 You need to have the following requirements:
 
--   mongodb <a target="_blank" href="https://www.mongodb.com/try/download/community/">(download here)</a>
+-   MongoDB <a target="_blank" href="https://www.mongodb.com/try/download/community/">(download here)</a>
 -   node <a target="_blank" href="https://nodejs.org/en/download/">(download here)</a>
 
 -   npm
@@ -106,14 +106,14 @@ _Below is an example of how you can run the project._
     ```
 3. Create a database named usersdb
 4. Create a collection named users (or import the `./db/users.json`)
-5. Run the api in development mode 
+5. Run the API in development mode 
     ```js
     npm run dev
-6. Serve the api
+6. Serve the API
     ```js
     npm run build
     ```
-7. Serve the api with production environments
+7. Serve the API with production environments
     ```js
     npm run build
     ```
@@ -124,8 +124,8 @@ _Below is an example of how you can run the project._
 
 ## Usage
 
-You can import the Postman routes via file `./db/postman-collection.json` and import the mongodb collection via file `./db/users.json`.
-And below are the implemented routes. You can consult them in `user.routes.js` either.
+You can import the Postman routes via file `./db/postman-collection.json` and import the MongoDB collection via file `./db/users.json`.
+Below are the implemented routes. You can consult them in `user.routes.js` either.
 
 
 ```js
@@ -144,7 +144,7 @@ And below are the implemented routes. You can consult them in `user.routes.js` e
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -186,7 +186,7 @@ Project Link: [https://github.com/rinaldilucas/node-api-example](https://github.
 ## Donations
 
 If you feel that this project has helped you in any way, whether it's attracting clients or teaching you about the technologies used, feel free to make a donation.
-It helps me a lot to continue developing open source codes.
+It helps me a lot to continue developing open-source codes.
 
 -   Metamask (USDT):
     ```sh
